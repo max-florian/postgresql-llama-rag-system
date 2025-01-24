@@ -1,0 +1,67 @@
+# Python-specific ignores
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Environment variables
+.env
+
+# Virtual environment
+venv/
+.env.bak
+
+# Python packaging
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Logs
+*.log
+logs/
+
+# Database
+*.sqlite3
+*.db
+
+# IDE specific files
+.vscode/
+.idea/
+
+# Byte-compiled / optimized / DLL files
+*.pyc
+*.pyo
+*.pyd
+
+# Test results
+*.coverage
+.cache/
+.nox/
+.tox/
+coverage.xml
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Pyre type checker
+.pyre/
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*.swo
+~*
+
+# Flask specific
+instance/
+.mypy_cache/
+__pycache__/

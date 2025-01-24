@@ -1,0 +1,10 @@
+python-dotenv
+langchain
+openai
+langchain_community
+tiktoken
+PyPDF2
+psycopg2
+SentenceTransformer
+flask
+requests
