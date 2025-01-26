@@ -5,6 +5,6 @@ langchain_community
 tiktoken
 PyPDF2
 psycopg2
-SentenceTransformer
+sentence_transformers
 flask
 requests

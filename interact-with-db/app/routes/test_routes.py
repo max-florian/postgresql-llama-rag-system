@@ -1,5 +1,5 @@
 from flask import Blueprint, jsonify
-from app.controllers.chatbot_controller import test_ollama
+from app.controllers.query_processing_controller import test_ollama
 
 test_bp = Blueprint("test", __name__)
 

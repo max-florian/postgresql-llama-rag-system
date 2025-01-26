@@ -1,5 +1,4 @@
 from app import create_app
-from flask import g
 
 app = create_app()
 

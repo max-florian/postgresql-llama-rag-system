@@ -6,7 +6,10 @@ DB_URL = os.getenv("DATABASE_URL")
 
 def get_db():
     if "db" not in g:
-        g.db = psycopg2.connect(DB_URL)
+        db_url = os.getenv("DATABASE_URL")
+        if not db_url:
+            raise ValueError("DATABASE_URL environment variable is not set")
+        g.db = psycopg2.connect(db_url)
     return g.db
 
 def get_cursor():
